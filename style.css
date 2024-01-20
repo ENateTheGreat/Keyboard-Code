@@ -1,0 +1,30 @@
+html, body{ height: 100%;}
+#child{
+    margin-top: 350px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 1000px;
+    height: 150px;
+    line-height: 150px;
+    font-size: 100px;
+    box-shadow: 0 0 20px .5px black;
+    background-color: brown;
+    grid-row: 1;
+}
+#parent{
+    background: blanchedalmond;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 200px 200px;
+    align-items: center;
+    justify-content: center;
+}
+.code{
+    margin-top: 300px;
+    background-color: rgb(165, 42, 42);
+    font-size: 100px;
+    grid-row: 2;
+    text-align: center;
+    box-shadow: 0 0 20px .5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
